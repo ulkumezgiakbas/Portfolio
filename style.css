@@ -1,0 +1,33 @@
+#about {
+    text-align: center;
+  }
+  
+  #about img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  #about img:hover {
+    transform: scale(1.05);
+  }
+  
+  #about h2 {
+    font-weight: 700;
+    margin-top: 10px;
+  }
+  
+  #about p {
+    color: #555;
+    font-size: 1.1rem;
+  }
+  #about {
+    background: linear-gradient(to bottom right, #f5f5f7, #e0e0e0);
+    border-radius: 20px;
+    padding: 50px;
+  }
+  
